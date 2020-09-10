@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Turn Based Dice Game</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="dice">
+                <span>0</span>
+            </div>
+            <div class="col-md-12 gameInfo">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 seat" data-id="1">
+                <h5>Player-1</h5>
+                <a href="javascript:void(0)" class="btn btn-danger" data-id="1">Take Seat</a>
+                <p class="taken">
+                    <i>Seat Taken</i>
+                </p>
+                <p class="winnerText">Winner</p>
+                <p class="score">Score : <span>0</span></p>
+                <p class="timer">1</p>
+                <p>
+                    <button data-id="1" class="takeChance btn btn-primary">Take Chance</botton>
+                </p>
+
+            </div>
+            <div class="col-md-2 seat" data-id="2">
+                <h5>Player-2</h5>
+                <a href="javascript:void(0)" class="btn btn-danger" data-id="2">Take Seat</a>
+                <p class="taken">
+                    <i>Seat Taken</i>
+                </p>
+                <p class="winnerText">Winner</p>
+                <p class="score">Score : <span>0</span></p>
+                <p class="timer"></p>
+                <p>
+                    <button data-id="2" class="takeChance btn btn-primary">Take Chance</botton>
+                </p>
+            </div>
+            <div class="col-md-2 seat" data-id="3">
+                <h5>Player-3</h5>
+                <a href="javascript:void(0)" class="btn btn-danger" data-id="3">Take Seat</a>
+                <p class="taken">
+                    <i>Seat Taken</i>
+                </p>
+                <p class="winnerText">Winner</p>
+                <p class="score">Score : <span>0</span></p>
+                <p class="timer"></p>
+                <p>
+                    <button data-id="3" class="takeChance btn btn-primary">Take Chance</botton>
+                </p>
+            </div>
+            <div class="col-md-2 seat" data-id="4">
+                <h5>Player-4</h5>
+                <a href="javascript:void(0)" class="btn btn-danger" data-id="4">Take Seat</a>
+                <p class="taken">
+                    <i>Seat Taken</i>
+                </p>
+                <p class="winnerText">Winner</p>
+                <p class="score">Score : <span>0</span></p>
+                <p class="timer"></p>
+                <p>
+                    <button data-id="4" class="takeChance btn btn-primary">Take Chance</botton>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Javascript -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/socket.io.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

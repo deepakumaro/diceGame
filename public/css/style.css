@@ -1,0 +1,119 @@
+.seat h5 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 1px;
+    background: black;
+    padding: 5px;
+    color: #fff;
+}
+
+
+
+.taken {
+    display: none;
+    margin-top: 45px;
+    text-align: center;
+    color: blue;
+}
+
+.seat {
+    border: 2px solid yellowgreen;
+    margin-right: 2px;
+    height: 200px;
+}
+
+.seat a {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: blueviolet;
+    border: 1px solid black;
+    left: 20%;
+    right: 0;
+    width: 50%
+}
+
+.seat a :hover {
+    background: cyan;
+    border: 1px solid black;
+
+}
+
+
+.takeChance {
+    display: none;
+    position: absolute;
+    bottom: -60px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background: blueviolet;
+    border: black 1px solid;
+    height: 41px;
+}
+
+.takeChance:hover {
+
+    background: blueviolet;
+    border: black 1px solid;
+}
+
+.timer {
+    display: none;
+    position: absolute;
+    top: 3px;
+    background: #ddd;
+    right: 2px;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    border-radius: 1px;
+    color: #333;
+    font-weight: bold;
+}
+
+.score {
+    display: none;
+    position: absolute;
+    bottom: -17px;
+    border-top: 2px solid black;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 6px;
+    color: black;
+}
+
+.winnerText {
+    display: none;
+    margin-top: 80px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.seatActive {
+    background-color: #ffe4e4;
+}
+
+.dice {
+    height: 100px;
+    /* background-color: #ddd; */
+    text-align: center;
+    position: relative;
+    margin-left: 30%;
+}
+
+.dice span {
+    position: absolute;
+    width: 50px;
+    height: 32px;
+    top: 20%;
+    left: 45%;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+
+}
